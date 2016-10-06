@@ -33,6 +33,11 @@
     "no-sequences": "error",
     "no-unused-expressions": "error",
     "no-with": "error",
+    "object-property-newline": "error",
+    "object-curly-newline": [
+        "error",
+        { "multiline": true }
+    ],
     "yoda": "error",
     "array-bracket-spacing": [
       "error",
