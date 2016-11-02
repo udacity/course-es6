@@ -1,8 +1,8 @@
 /* eslint object-property-newline: off */
 
 function Tree(size, leaves) {
-    this.size = (typeof size !== 'undefined') ? size : 10;
-    this.leaves = (typeof leaves !== 'undefined') ? leaves : {spring: 'green', summer: 'green', fall: 'orange', winter: null};
+    this.size = size || 10;
+    this.leaves = leaves || {spring: 'green', summer: 'green', fall: 'orange', winter: null};
     this.leafColor = null;
 }
 
@@ -33,7 +33,7 @@ Maple.prototype.gatherSyrup = function () {
 };
 
 
-const myMaple = new Maple(15, 5);
+var myMaple = new Maple(15, 5);
 console.log(myMaple);
 
 myMaple.changeSeason('fall');

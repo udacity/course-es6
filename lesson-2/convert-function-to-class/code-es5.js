@@ -8,8 +8,8 @@ Plane.prototype.startEngines = function () {
     this.enginesActive = true;
 };
 
-const richardsPlane = new Plane(1);
+var richardsPlane = new Plane(1);
 richardsPlane.startEngines();
 
-const jamesPlane = new Plane(4);
+var jamesPlane = new Plane(4);
 jamesPlane.startEngines();
