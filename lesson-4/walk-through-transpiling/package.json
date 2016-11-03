@@ -4,8 +4,7 @@
   "description": "Simple app that demos transpiling ES6 code to ES5 code with Babel.",
   "main": "",
   "scripts": {
-    "build": "babel ES6 -d ES5",
-    "blah": "console.log('richard')"
+    "build": "babel ES6 -d ES5"
   },
   "author": "Richard Kalehoff",
   "license": "MIT",
