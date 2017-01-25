@@ -5,8 +5,7 @@ if (!String.prototype.startsWith) {
     };
 }
 
-
-/* Sample usage */
+/* sample usage */
 'Udacity'.startsWith('Udac'); // returns `true`
 'Udacity'.startsWith('Udac', 2); // returns `false`
 'Udacity'.startsWith('ES6'); // returns `false`
